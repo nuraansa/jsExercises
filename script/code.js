@@ -1,3 +1,4 @@
+//QUESTION 1
 /*
 1.Variable: 
 Is a named storage. It is used to hold a value.
@@ -62,4 +63,21 @@ console.log(fullName.displayName)
 
 */
 
+//QUESTION 2
 
+let firstName = "Nuraan";
+let lastName = "Davids";
+let age = "23";
+let subjects = ["HTML", "CSS", "Bootstrap", "Javascript"];
+let address = {
+  streetName: "Watercress Lane",
+  streetNumber: 15,
+  suburb: "Southern",
+  city: "Cape Town",
+  countryName: "South Africa",
+};
+console.log(firstName);
+console.log(lastName);
+console.log(age);
+console.log(subjects);
+console.log(address);
