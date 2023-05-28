@@ -64,7 +64,7 @@ console.log(fullName.displayName)
 */
 
 //QUESTION 2
-
+/*
 let firstName = "Nuraan";
 let lastName = "Davids";
 let age = "23";
@@ -81,3 +81,21 @@ console.log(lastName);
 console.log(age);
 console.log(subjects);
 console.log(address);
+*/
+
+//QUESTION 3
+
+let number1 = document.querySelector('#number1');
+let operator = document.querySelector('#operator');
+let number2 = document.querySelector('#number2');
+let displayResult = document.querySelector('#displayResult');
+let calculate = document.querySelector('#calculate');
+
+calculate.addEventListener('click', ()=> {
+  if (number1, operator, number2 === '') {
+    displayResult.innerHTML = "Insert Number and Operator"
+  } else {
+    calculate = eval(number1.value + operator.value + number2.value)
+    displayResult.innerHTML = calculate;
+  }
+})
