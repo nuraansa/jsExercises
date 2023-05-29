@@ -99,3 +99,14 @@ calculate.addEventListener('click', ()=> {
     displayResult.innerHTML = calculate;
   }
 })
+
+*/
+
+//QUESTION 4
+
+let subject = "programming";
+let reversed = subject.split("").reverse().join("");
+console.log(subject);
+console.log(reversed);
+
+
