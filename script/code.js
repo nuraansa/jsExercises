@@ -84,7 +84,7 @@ console.log(address);
 */
 
 //QUESTION 3
-/*
+
 let number1 = document.querySelector('#number1');
 let operator = document.querySelector('#operator');
 let number2 = document.querySelector('#number2');
@@ -99,6 +99,7 @@ calculate.addEventListener('click', ()=> {
     displayResult.innerHTML = calculate;
   }
 })
+
 */
 
 //QUESTION 4
@@ -107,4 +108,5 @@ let subject = "programming";
 let reversed = subject.split("").reverse().join("");
 console.log(subject);
 console.log(reversed);
+
 
